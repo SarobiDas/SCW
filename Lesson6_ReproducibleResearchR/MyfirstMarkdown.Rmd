@@ -1,0 +1,42 @@
+---
+title: "MyFirstMarkdown"
+author: "Sarobi Das"
+date: "14/09/2019"
+output: html_document
+---
+
+Bold - **Bold**  
+Italics - _Italics_  
+Italics the other way - *Italics*  
+
+- Bullet List 1
+- Bullet List 2
+- Bullet List 3
+
+1. Ordered List 1
+5. Ordered List 2
+1. Ordered List 3
+
+# section
+## Subsection
+* Bullet List 1
+* Bullet List 2
+* Bullet List 3
+
+```{r first_chunk}
+gapminder <- read.table("gapminder.txt", header = TRUE)
+head(gapminder)
+```
+
+```{r first_chunk2}
+gapminder <- read.table("gapminder.txt", header = TRUE)
+head(gapminder)
+```
+
+```{r first_chunk3, echo=FALSE, results='hide', eval=FALSE, warning=FALSE}
+gapminder <- read.table("gapminder.txt", header = TRUE)
+head(gapminder)
+```
+
+library(ggplot2)
+ggplot(data=gapminder, aes)

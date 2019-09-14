@@ -9,3 +9,7 @@ Canada <- myDataFull[data$country=="Canada",]
 
 #plot life exp
 plot(Canada$year, Canada$lifeExp) 
+gapminder <- read.table("gapminder.txt", header=TRUE)
+fahrenheit_to_celsius <- function(temp){
+  
+}
